@@ -17,11 +17,11 @@ class NaiveBayesClassifier(dict):
     def load(cls, file_path):
         return cls(pickle.load(open(file_path, 'rb')))
 
-class FMClassifier(NaiveBayesClassifier):
+class ExampleClassifier(NaiveBayesClassifier):
     """
-    Federated Media Classifier
+    Example Classifier
     """
     def __init__(self, *args, **kwargs):
-        self._ident = 'fm'
+        self._ident = 'example'
         super(NaiveBayesClassifier, self).__init__(*args, **kwargs)
 

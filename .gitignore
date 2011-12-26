@@ -1,2 +1,4 @@
 *.pyc
 var
+build
+dist
