@@ -6,7 +6,7 @@ setup(
     author='George Courtsunis',
     author_email='gjcourt@gmail.com',
     url='http://github.com/gjcourt/bayes',
-    version='0.1',
+    version='0.1.1',
     packages=['bayes']
     )
 
